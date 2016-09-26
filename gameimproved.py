@@ -60,10 +60,15 @@ while(1):
     if m==0:
         print"\nCongrats you have finished the game"
         print "\nTime taken is " +str(round(time_elap))
-    time.sleep(1)
-    print"\nTo play again press 'y'"
-    a=msvcrt.getch()
+    print"\nTo play again press 'y' else press 'n'"
+    while(1):
+        a=msvcrt.getch()
+        if a=='y':
+            break
+        if a=='n':
+            break
     if a=='y':
         continue
     else:
         break
+  
