@@ -6,7 +6,7 @@ while(1):
     count1=0
     count2=0
     m=0
-    print"\npress enter"
+    print"\npress enter to play"
     raw_input()
     s_time=time.time()
     print"move to the right"
@@ -60,6 +60,7 @@ while(1):
     if m==0:
         print"\nCongrats you have finished the game"
         print "\nTime taken is " +str(round(time_elap))
+    time.sleep(1)
     print"\nTo play again press 'y'"
     a=msvcrt.getch()
     if a=='y':
