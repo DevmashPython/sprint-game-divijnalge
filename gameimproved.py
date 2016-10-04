@@ -71,4 +71,8 @@ while(1):
         continue
     else:
         break
-  
+ 
+''' 
+1. Mention controls for the game before the game is started!
+ex. Press D to move right
+'''
